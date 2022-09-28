@@ -6,7 +6,7 @@ describe('MyContract contract', () => {
   let MyContract, myContract;
 
   beforeEach(async () => {
-    MyContract = await ethers.getContractFactory('IncrementalMerkleTree');
+    MyContract = await ethers.getContractFactory('MyContract');
     myContract = await MyContract.deploy(PARAM);
   });
 
