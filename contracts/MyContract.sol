@@ -5,7 +5,7 @@ interface IHasher {
   function poseidon(uint256[2] memory) external pure returns (uint256);
 }
 
-contract IncrementalMerkleTree {
+contract MyContract {
   uint256 public constant CONST = 0x27;
 
   uint32 public immutable param;
