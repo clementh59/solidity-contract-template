@@ -10,9 +10,7 @@ async function main() {
   */
 
   const MyContract = await ethers.getContractFactory('MyContract');
-  const myContract = await MyContract.deploy(
-    PARAM
-  );
+  const myContract = await MyContract.deploy(PARAM);
 
   console.log(`Contract address: ${myContract.address}`);
 }

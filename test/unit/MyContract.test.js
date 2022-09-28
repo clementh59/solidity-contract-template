@@ -27,9 +27,7 @@ describe('MyContract contract', () => {
 
     it('should revert when passing wrong values to the constructor', async () => {
       // levels should be between 1 and 32
-      await expect(
-        MyContract.deploy(0)
-      ).to.be.revertedWith('_param should be greater than zero');
+      await expect(MyContract.deploy(0)).to.be.revertedWith('_param should be greater than zero');
     });
   });
 

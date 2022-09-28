@@ -25,9 +25,7 @@ contract MyContract {
   // The event emitted when a leaf is successfully added to the tree
   event LeafAdded(uint256 indexed leaf);
 
-  constructor(
-    uint32 _param
-  ) {
+  constructor(uint32 _param) {
     require(_param > 0, '_param should be greater than zero');
     param = _param;
   }
