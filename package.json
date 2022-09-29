@@ -10,7 +10,7 @@
     "test": "npx hardhat test",
     "clean": "rm -rf artifacts/ build/ cache/",
     "prettier": "npx prettier --write .",
-    "deploy": "npx hardhat run scripts/deploy.js --network rinkeby"
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",

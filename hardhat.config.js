@@ -10,8 +10,8 @@ const PRIVATE_KEY =
 module.exports = {
   solidity: '0.8.0',
   networks: {
-    rinkeby: {
-      url: `https://rinkeby.infura.io/v3/${INFURA_API_KEY}`,
+    goerli: {
+      url: `https://goerli.infura.io/v3/${INFURA_API_KEY}`,
       accounts: [PRIVATE_KEY],
     },
   },
